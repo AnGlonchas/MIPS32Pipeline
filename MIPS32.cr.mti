@@ -1,0 +1,26 @@
+/home/anglonchas/Programming/MIPS32/add.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/add.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} /home/anglonchas/Programming/MIPS32/burrito.v {2 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/burrito.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module registerBank
+** Warning: /home/anglonchas/Programming/MIPS32/burrito.v(26): (vlog-2182) 'Bank' might be read before written in always_comb or always @* block.
+-- Compiling module ALU
+-- Compiling module burrito
+-- Compiling module burritoTB
+
+Top level modules:
+	burritoTB
+
+} {} {}} /home/anglonchas/Programming/MIPS32/pc.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/pc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module programCounter
+
+Top level modules:
+	programCounter
+
+} {} {}}
