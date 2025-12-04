@@ -7,11 +7,11 @@ module programCounter(
     );
     
     initial begin
-        pcOut <= 32'b0;
+        pcOut = 32'b0;
     end
 
-    always@(clk) begin
-        pcOut <= pcIn;
+    always@(posedge clk) begin
+        pcOut = pcIn;
     end
 
 endmodule

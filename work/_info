@@ -10,7 +10,7 @@ z2
 cModel Technology
 d/home/anglonchas/Programming/ArquitecturaDeComputadoras
 vadder
-Z0 !s110 1764805748
+Z0 !s110 1764818597
 !i10b 1
 !s100 aGLhG]mC]mkUn_?VF>cTV2
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,18 +20,18 @@ Z3 d/home/anglonchas/Programming/MIPS32
 w1764805581
 8/home/anglonchas/Programming/MIPS32/add.v
 F/home/anglonchas/Programming/MIPS32/add.v
-!i122 9
-L0 3 9
-Z4 OV;L;2020.1;71
+!i122 524
+Z4 L0 3 9
+Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1764805748.000000
+Z6 !s108 1764818597.000000
 !s107 /home/anglonchas/Programming/MIPS32/add.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/anglonchas/Programming/MIPS32/add.v|
 !i113 1
-Z6 o-work work
-Z7 tCvgOpt 0
+Z7 o-work work
+Z8 tCvgOpt 0
 vALU
 R0
 !i10b 1
@@ -40,22 +40,70 @@ R1
 IBj8ZfL>m>N37KHC=MZjc_3
 R2
 R3
-Z8 w1764804807
-Z9 8/home/anglonchas/Programming/MIPS32/burrito.v
-Z10 F/home/anglonchas/Programming/MIPS32/burrito.v
-!i122 10
+Z9 w1764804807
+Z10 8/home/anglonchas/Programming/MIPS32/burrito.v
+Z11 F/home/anglonchas/Programming/MIPS32/burrito.v
+!i122 525
 L0 39 19
-R4
+R5
 r1
 !s85 0
 31
-R5
-Z11 !s107 /home/anglonchas/Programming/MIPS32/burrito.v|
-Z12 !s90 -reportprogress|300|-work|work|-stats=none|/home/anglonchas/Programming/MIPS32/burrito.v|
-!i113 1
 R6
+Z12 !s107 /home/anglonchas/Programming/MIPS32/burrito.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|/home/anglonchas/Programming/MIPS32/burrito.v|
+!i113 1
 R7
+R8
 n@a@l@u
+vAluControl
+Z14 !s110 1764818599
+!i10b 1
+!s100 kCOIT81abfGz>mX[9@GDj0
+R1
+I>>W3=TABJz7[=gGa^kN0m1
+R2
+R3
+Z15 w1764603553
+8/home/anglonchas/Programming/MIPS32/AluControl.v
+F/home/anglonchas/Programming/MIPS32/AluControl.v
+!i122 534
+L0 2 37
+R5
+r1
+!s85 0
+31
+Z16 !s108 1764818598.000000
+!s107 /home/anglonchas/Programming/MIPS32/AluControl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/anglonchas/Programming/MIPS32/AluControl.v|
+!i113 1
+R7
+R8
+n@alu@control
+vALUZeroFlag
+Z17 !s110 1764818598
+!i10b 1
+!s100 aXW];eiPzQ`nM6m:81M=a2
+R1
+I2IR[^KT:21QN8lDi9^m<F3
+R2
+R3
+w1764818587
+8/home/anglonchas/Programming/MIPS32/alu.v
+F/home/anglonchas/Programming/MIPS32/alu.v
+!i122 533
+L0 3 23
+R5
+r1
+!s85 0
+31
+R16
+!s107 /home/anglonchas/Programming/MIPS32/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/anglonchas/Programming/MIPS32/alu.v|
+!i113 1
+R7
+R8
+n@a@l@u@zero@flag
 vburrito
 R0
 !i10b 1
@@ -64,21 +112,21 @@ R1
 I8;KQnX2=;bfc_<iX7b>SY3
 R2
 R3
-R8
 R9
 R10
-!i122 10
+R11
+!i122 525
 L0 59 33
-R4
+R5
 r1
 !s85 0
 31
-R5
-R11
-R12
-!i113 1
 R6
+R12
+R13
+!i113 1
 R7
+R8
 vburritoTB
 R0
 !i10b 1
@@ -87,90 +135,305 @@ R1
 IzgVNd=EN9InJooN_[I4el2
 R2
 R3
-R8
 R9
 R10
-!i122 10
+R11
+!i122 525
 L0 93 66
-R4
+R5
 r1
 !s85 0
 31
-R5
-R11
-R12
-!i113 1
 R6
+R12
+R13
+!i113 1
 R7
+R8
 nburrito@t@b
+vControl
+R17
+!i10b 1
+!s100 :6`NgH`Gg]4AiA54nCF5Y2
+R1
+IjHjjak[afcbS_2cZ6^6<k2
+R2
+R3
+w1764808567
+8/home/anglonchas/Programming/MIPS32/control.v
+F/home/anglonchas/Programming/MIPS32/control.v
+!i122 530
+L0 2 99
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/anglonchas/Programming/MIPS32/control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/anglonchas/Programming/MIPS32/control.v|
+!i113 1
+R7
+R8
+n@control
+vInstructionMemory
+!s110 1764806545
+!i10b 1
+!s100 lB8:lWdcG?RC`2_dJITQU2
+R1
+I6?f?zK2P[>N:jldEGVlTW3
+R2
+R3
+w1764806485
+Z18 8/home/anglonchas/Programming/MIPS32/InstructionMemory.v
+Z19 F/home/anglonchas/Programming/MIPS32/InstructionMemory.v
+!i122 17
+L0 1 16
+R5
+r1
+!s85 0
+31
+!s108 1764806544.000000
+Z20 !s107 /home/anglonchas/Programming/MIPS32/InstructionMemory.v|
+Z21 !s90 -reportprogress|300|-work|work|-stats=none|/home/anglonchas/Programming/MIPS32/InstructionMemory.v|
+!i113 1
+R7
+R8
+n@instruction@memory
+vinstructionMemory
+R0
+!i10b 1
+!s100 zlo1NQ4ePIY9CIgEh25F51
+R1
+IGe2I=O694EBR@oQaUTEHY1
+R2
+R3
+w1764810510
+R18
+R19
+!i122 527
+L0 3 18
+R5
+r1
+!s85 0
+31
+R6
+R20
+R21
+!i113 1
+R7
+R8
+ninstruction@memory
+vMux32
+R0
+!i10b 1
+!s100 R@zT1:^G:o^Ln_cDHYYKO3
+R1
+I@Rn6`zV?ceRfY0SQAM;S]1
+R2
+R3
+Z22 w1764808509
+Z23 8/home/anglonchas/Programming/MIPS32/mux.v
+Z24 F/home/anglonchas/Programming/MIPS32/mux.v
+!i122 529
+R4
+R5
+r1
+!s85 0
+31
+R6
+Z25 !s107 /home/anglonchas/Programming/MIPS32/mux.v|
+Z26 !s90 -reportprogress|300|-work|work|-stats=none|/home/anglonchas/Programming/MIPS32/mux.v|
+!i113 1
+R7
+R8
+n@mux32
+vMux5
+R0
+!i10b 1
+!s100 n;AQmIP4j0cONEgdIHVo00
+R1
+I538VhXg[f@HF;54Q2=GYP2
+R2
+R3
+R22
+R23
+R24
+!i122 529
+L0 13 9
+R5
+r1
+!s85 0
+31
+R6
+R25
+R26
+!i113 1
+R7
+R8
+n@mux5
 vprogramCounter
 R0
 !i10b 1
-!s100 CUUd99:58`B8DkcEAHc6=1
+!s100 gfVQ48W8kDm;nFK0oeOaY0
 R1
-I=keU]IRo8LJ3bdRO=]R112
+IzK`NG?<OG@?^FOPkcaj[T2
 R2
 R3
-w1764805273
+w1764815889
 8/home/anglonchas/Programming/MIPS32/pc.v
 F/home/anglonchas/Programming/MIPS32/pc.v
-!i122 8
+!i122 523
 L0 3 15
-R4
+R5
 r1
 !s85 0
 31
-R5
+R6
 !s107 /home/anglonchas/Programming/MIPS32/pc.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/anglonchas/Programming/MIPS32/pc.v|
 !i113 1
-R6
 R7
+R8
 nprogram@counter
+vRAM
+R14
+!i10b 1
+!s100 49>6:l>F@^cF_ZiS[K:^Z2
+R1
+I4i8eiaRD]z:ZVK^3od@;m3
+R2
+R3
+w1764816329
+8/home/anglonchas/Programming/MIPS32/ram.v
+F/home/anglonchas/Programming/MIPS32/ram.v
+!i122 535
+L0 1 25
+R5
+r1
+!s85 0
+31
+!s108 1764818599.000000
+!s107 /home/anglonchas/Programming/MIPS32/ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/anglonchas/Programming/MIPS32/ram.v|
+!i113 1
+R7
+R8
+n@r@a@m
 vregisterBank
 R0
 !i10b 1
-!s100 :3mWS?FJ5JO_@15HI^o`n2
+!s100 @Oc]e>?IF4A?Q9o9DL7`01
 R1
-IVSiB^=JNAY[d]f81@F[ea2
+IbIlP:J=fYQfliMkiaj_FU0
 R2
 R3
-R8
-R9
-R10
-!i122 10
+w1764817007
+8/home/anglonchas/Programming/MIPS32/RegisterBank.v
+F/home/anglonchas/Programming/MIPS32/RegisterBank.v
+!i122 528
 L0 3 35
-R4
+R5
 r1
 !s85 0
 31
-R5
-R11
-R12
-!i113 1
 R6
+!s107 /home/anglonchas/Programming/MIPS32/RegisterBank.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/anglonchas/Programming/MIPS32/RegisterBank.v|
+!i113 1
 R7
+R8
 nregister@bank
+vshiftLeft2
+R17
+!i10b 1
+!s100 gVfJXNS`_9XR_5mX6Z1D:1
+R1
+I2C:K[c_MY71dj79jMC>W_1
+R2
+R3
+w1764810874
+8/home/anglonchas/Programming/MIPS32/ShiftLeft.v
+F/home/anglonchas/Programming/MIPS32/ShiftLeft.v
+!i122 531
+L0 3 8
+R5
+r1
+!s85 0
+31
+R16
+!s107 /home/anglonchas/Programming/MIPS32/ShiftLeft.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/anglonchas/Programming/MIPS32/ShiftLeft.v|
+!i113 1
+R7
+R8
+nshift@left2
+vsignExtend
+R17
+!i10b 1
+!s100 m4:84;>DVz]GG0AoH9;;M3
+R1
+ILc[aM:06V>[oUAg3Wd<TX2
+R2
+R3
+w1764810860
+Z27 8/home/anglonchas/Programming/MIPS32/signExtend.v
+Z28 F/home/anglonchas/Programming/MIPS32/signExtend.v
+!i122 532
+R4
+R5
+r1
+!s85 0
+31
+R16
+Z29 !s107 /home/anglonchas/Programming/MIPS32/signExtend.v|
+Z30 !s90 -reportprogress|300|-work|work|-stats=none|/home/anglonchas/Programming/MIPS32/signExtend.v|
+!i113 1
+R7
+R8
+nsign@extend
+vsigntb
+!s110 1764810828
+!i10b 1
+!s100 cJi:D@9QDd69Tz:3dPLUG3
+R1
+I;jL[X:b3RzMT?zSchC:1k2
+R2
+R3
+R15
+R27
+R28
+!i122 193
+L0 12 11
+R5
+r1
+!s85 0
+31
+!s108 1764810828.000000
+R29
+R30
+!i113 1
+R7
+R8
 vtb
 R0
 !i10b 1
-!s100 Y@P@`G:ZXQeZ5R<GcBm002
+!s100 WDD7^0N9I]=EWDf^RhbZJ2
 R1
-I=2Ue[lH3c>=IfEKRY99MG1
+IF]KP]27APA``m8A7i3QRd3
 R2
 R3
-w1764805743
+w1764817493
 8/home/anglonchas/Programming/MIPS32/tb.v
 F/home/anglonchas/Programming/MIPS32/tb.v
-!i122 11
-L0 3 27
-R4
+!i122 526
+L0 3 152
+R5
 r1
 !s85 0
 31
-R5
+R6
 !s107 /home/anglonchas/Programming/MIPS32/tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/anglonchas/Programming/MIPS32/tb.v|
 !i113 1
-R6
 R7
+R8
