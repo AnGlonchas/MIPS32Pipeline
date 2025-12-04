@@ -19,13 +19,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	adder
 
-} {} {}} /home/anglonchas/Programming/MIPS32/pc.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/pc.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module programCounter
-
-Top level modules:
-	programCounter
-
 } {} {}} /home/anglonchas/Programming/MIPS32/AluControl.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/AluControl.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module AluControl
@@ -33,19 +26,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	AluControl
 
+} {} {}} /home/anglonchas/Programming/MIPS32/pc.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/pc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module programCounter
+
+Top level modules:
+	programCounter
+
 } {} {}} /home/anglonchas/Programming/MIPS32/InstructionMemory.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/InstructionMemory.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module instructionMemory
 
 Top level modules:
 	instructionMemory
-
-} {} {}} /home/anglonchas/Programming/MIPS32/tb.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module tb
-
-Top level modules:
-	tb
 
 } {} {}} /home/anglonchas/Programming/MIPS32/burrito.v {2 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/burrito.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -58,6 +51,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	burritoTB
 
+} {} {}} /home/anglonchas/Programming/MIPS32/control.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Control
+
+Top level modules:
+	Control
+
 } {} {}} /home/anglonchas/Programming/MIPS32/RegisterBank.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/RegisterBank.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module registerBank
@@ -65,12 +65,18 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	registerBank
 
-} {} {}} /home/anglonchas/Programming/MIPS32/control.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/control.v
+} {} {}} /home/anglonchas/Programming/MIPS32/alu.v {2 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/alu.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Control
+-- Compiling module ALUZeroFlag
+** Warning: /home/anglonchas/Programming/MIPS32/alu.v(12): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: /home/anglonchas/Programming/MIPS32/alu.v(13): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: /home/anglonchas/Programming/MIPS32/alu.v(14): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: /home/anglonchas/Programming/MIPS32/alu.v(15): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: /home/anglonchas/Programming/MIPS32/alu.v(16): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: /home/anglonchas/Programming/MIPS32/alu.v(17): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 
 Top level modules:
-	Control
+	ALUZeroFlag
 
 } {} {}} /home/anglonchas/Programming/MIPS32/mux.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/mux.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

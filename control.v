@@ -51,6 +51,7 @@ module Control(
                 regDst    = 0;
                 aluOp     = 3'b000; // Suma
             end
+
             // SLTI
             6'b001010: begin
                 aluSrc    = 1;

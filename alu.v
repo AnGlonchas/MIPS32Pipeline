@@ -9,12 +9,12 @@ module ALUZeroFlag(
 
 always @* begin
     case(sel)
-        3'd0: out = a + b;
-        3'd1: out = a - b;
-        3'd2: out = a & b;
-        3'd3: out = a | b;
-        3'd4: out = (a < b) ? 32'd1 : 32'd0; // SLT
-        3'd5: out = a ^ b;        // XOR (NUEVO para XORI)
+        3'b0000: out = a + b;
+        3'b0001: out = a - b;
+        3'b0010: out = a & b;
+        3'b0011: out = a | b;
+        3'b0100: out = (a < b) ? 32'd1 : 32'd0; // SLT
+        3'b0101: out = a ^ b;        // XOR (NUEVO para XORI)
         
         default: out = 32'b0;
     endcase
